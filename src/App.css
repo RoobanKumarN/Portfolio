@@ -1,38 +1,403 @@
-.App {
+nav{
+  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.logo
+{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.log{
+  width: 80px;
+}
+.p{
+  font-size: 1.6rem;
+}
+.menu{
+  position: relative;
+  right: 2%;
+  display: flex;
+  list-style: none;
+  font-size: 1.6rem;
+}
+.menu li a{
+  list-style: none;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+}
+.background {
+  margin: 20px; 
+  width: 96.5%;
+}
+/*.bean {
+  position: absolute;
+  object-fit: cover;
+  height: 530px;
+  top: 216px;
+  right: 10px;
+}
+.bean-bag {
+  position: absolute;
+  top: 520px;
+  left: 20px;
+  object-fit: cover; 
+} */
+.para {
+  position: absolute;
+  top: 25svw;
+  left: 20%;
+  font-size: 3rem;
+}
+.para p {
+  font-size: 2rem;
+}
+#about {
+  margin: 20px;
+  padding-left: 10%;
+  font-size: 2.62rem;
+  padding-right: 5%;
+}
+#about p {
+  font-size: 1.75rem;
+}
+#work {
+  margin: 20px;
+  padding-left: 10%;
+  font-size: 2.62rem; 
+  padding-right: 5%;
+}
+#work p {
+  font-size: 1.75rem;
+}
+.bean-branch {
+  position: relative;
+  left: -100px;
+  width: 35%;
+  margin-bottom: -340px;
+}  
+.bean-g {
+  position: relative;
+  top: 0px;
+  left: 60%;
+  margin: 10px;
+  margin-left: -100px;
+  margin-bottom: -400px;
+}
+.ice-coffee-2 {
+  position: relative;
+  left:15%;
+  max-width: 95%;
+  height: auto;
+  margin-left: -100px;
+  margin-bottom: -630px;
+}
+.Containers {
+  position:relative;
+  top: 0px;
+  left: 10%;
+  max-width: 80%;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.Containers::-webkit-scrollbar{
+  width: 0;
+}
+.Containers_a {
+  position: relative;
+  top: 115px;
+  left: 295px;
+  z-index: 2;
+  color: black;
+}
+ .Cards{
+  position: relative;
+  margin:15px 15px;
+}
+.Containers .img{
+  position: relative;
+  top: 100px;
+  left: 71px;
+  width: 40%;
+  height: auto;
+}
+.imgStyle {
+  position: relative;
+  margin-bottom: -340px;
+  left: 85px;
+  width: 200px;
+  z-index: 1;
+}
+.par {
+  position: relative;
+  top: -206px;
+  margin-bottom: -69px;
+  left: 76px;
+  font-size: 1rem;
+}
+#skill {   
+  padding-top: 100px;
+  padding-left:8%;
+  font-size: 2.62rem; 
+}
+.Cups{
+  position:relative;
+  margin-top: -30vw;
+  left: 15%;
+  margin-right: 20px;
+  width: 80%;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.Cups::-webkit-scrollbar{
+  width: 0;
+}
+.Cups .lanS {
+  position: relative;
+  width: 12%;
+  height: 2vw;
+  bottom: 5.5vw;
+  left: 7.2vw;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.Cups .cups {
+  padding-top: 20px;
+  height: 17vw;
+}
+.sugar {
+  position: relative;
+  width: 30%;
+  height: auto;
+  top: 185px;
+  left: -8%;
+}
+.b-background-1 {
+  position: absolute;
+  max-width: 95%;
+  height: auto;
+  top: 400svh;
+  left: 35px;
+}
+
+.ice-coffee-4{
+  position: absolute;
+  top: 2750px;
+  right: 2%;
+}
+/* -- Contact -- */
+.contact-me {
+  position: relative;
+  left: 7%;
+  top: 20vw; 
+  height: 350px;
+  width: 600px;
+  font-size: 2.25rem; 
+  padding: 2.5rem; 
+  line-height: 1.5rem; 
+  border: 1px solid #ccc;
+  border-radius: 3rem; 
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(45deg, #F8F5F1 0.05%, rgba(155, 127, 83, 0.72) 100%);
+}
+.details{
+  position: relative;
+  padding-top: 35px; 
+  padding-left: 10px;
+  font-size: 1rem; 
+}
+form input,
+form textarea {
+  background-color: #E5DEDF;
+  backdrop-filter: blur(5px);
+  padding: 5px;
+  width: 325px;
+  margin: 10px;
+  border-radius: 5px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.linkedin {
+  position: absolute;
+  color: #E5DEDF;
+  left: 33rem; 
+  top: 2.5rem; 
+}
+.email {
+  position: absolute;
+  color: #E5DEDF;
+  left: 37rem; 
+  top: 2.5rem; 
+}
+.btn-btn2 {
+  position:absolute;
+  background-color: #E5DEDF;
+  border-radius: 5px; 
+  top: 310px;
+  left: 20px;
+  width: 100px;
+  padding: 5px;
+  cursor: pointer;
+}
+#msg{
+  position: relative;
+  top: 5px;
+  left: 150px;
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* -- mobile --*/
+
+nav .fa-solid ,.fa-regular
+{
+    display: none;
+}
+.textStyles_m{
+  display: none;
+}
+@media only screen and (max-width:750px){
+    nav .fa-solid ,.fa-regular{
+        display: block;
+        font-size: 20px;
+    }
+    .log{
+      width: 40px;
+    }
+    .logo p{
+      font-size: 12px;
+      padding-top: 5px;
+    }
+    .menu {
+     display: none;
+    }
+    .menu[data-visible="true"]{
+      position: absolute;
+      top: 70px;
+      width: 80px;
+      font-size: 12px;
+      flex-direction: column;
+      padding: 40px 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      display: block;
+      z-index: 1000;
+    }
+    .menu li a{
+      line-height: 35px;
+    }
+    .background{
+      height: 200px;
+    }
+    #about, #work,#skill{
+      font-size: 1.5rem;
+      top: 45svw;
+    }
+    .para{
+      top: 22vh;
+      font-size: 2rem;
+    }
+    .para p,#about p, #work p{
+      font-size: 1rem;
+    }
+    #skill{
+      padding-top: 20px;
+    }
+    .sugar{
+      top: 80px;
+    }
+    .bean-branch{
+      margin-bottom: -190px;
+      left: -40px;
+    } 
+    .contact-me { 
+      height: 175px;
+      width: 300px;
+      font-size: 1rem;
+      padding: 2.5rem;
+      left: 5%;
+      right: 5%;
+      line-height: 0rem;
+  }
+  .details {
+    padding-left: 8px;
+    font-size: 0.8rem;
+  }
+  .linkedin {
+    left: 18rem;
+   top: 2rem;
+  }
+  .email {
+    left: 20rem;
+    top: 2rem;
+  } 
+  form input, form textarea {
+    padding: 2.5px;
+    width: 175px;
+    font-size: .5rem;
+  }
+  .btn-btn2 {
+    top: 175px;
+    padding: 2px;
+  }
+  .Cups .lanS{
+    bottom: 6.5svw;
+  }
+  .ice-coffee-2{
+    margin-bottom: -497px;
+  }
+  .textStyles_m{
+    display: block;
+  }
+  .textStyles{
+    display: none;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (max-width:550px){
+  .Cups .lanS{
+    bottom: 7.5svw;
+  } 
+  .bean-branch{
+    margin-bottom: -145px;
+  } 
+  .ice-coffee-2 {
+    margin-bottom: -356px;
+} 
+ /* .para{
+    top:26svw;
+  }*/
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width:450px){
+  .Cups .lanS{
+    bottom: 8.5svw;
+  } 
+  .bean-branch{
+    margin-bottom: -105px;
+  } 
+  .ice-coffee-2 {
+    margin-bottom: -285px;
+    left: 50%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  /*.para{
+    top:43svw;
+    font-size: 1.5rem;
+    left: 15%;
+  }*/
 }
