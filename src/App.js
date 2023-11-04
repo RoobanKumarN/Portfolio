@@ -305,6 +305,7 @@ function portfolio() {
       <Skill />
       <Cup />
       <Contact />
+      <Message />
     </>
   );
 }
