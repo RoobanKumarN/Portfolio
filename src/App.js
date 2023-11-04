@@ -103,7 +103,7 @@ function Main() {
     {
       card: "img/Menu.png",
       img: "img/Maker.png",
-      github: "https://github.com/RoobanKumarN",
+      github: "https://github.com/RoobanKumarN/Marker",
       text: "Marker <br/><br/> Save websites, WebPages,<br/>and can take notes",
     },
     {
@@ -257,7 +257,7 @@ function Contact() {
     </div>
   );
 }
-/*function Message() {
+function Message() {
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbxMz9NyWfjoqH1ukQxx1jF-4ukDaQiqYEkUexPQBs-IKdPa7xZ51YysQ-Ni6HWqQeKe/exec";
   const formRef = useRef(null);
@@ -293,7 +293,7 @@ function Contact() {
       <div ref={msgRef} id="msg"></div>
     </div>
   );
-}*/
+}
 function portfolio() {
   return (
     <>
